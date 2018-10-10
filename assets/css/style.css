@@ -261,8 +261,8 @@ em, i { font-style: italic; }
 h3, h4, h5 { color:#333; }
 
 h3 { font-size:20px; font-weight: 400; }
-h4 { font-size:16px; font-weight:bold; }
-h5 { font-size:15px; font-weight: bold; }
+h4 { font-size:16px; font-weight:bold; margin-bottom: 0; }
+h5 { font-size:15px; font-weight: bold; margin-bottom: 0; }
 
 h6 {
 	font-size: 13px;
@@ -309,6 +309,15 @@ pre	{
 	  font-weight: 500;
 	color: #d0d4d7;
 
+}
+
+p > code {
+	color: #d0d4d7;
+	border-radius: 3px;
+	background: #272b2d;
+	padding: 0.2rem 0.35rem;
+	font-family: 'Source Code Pro',Menlo,monospace;
+	font-size: 13px;
 }
 
 table {
