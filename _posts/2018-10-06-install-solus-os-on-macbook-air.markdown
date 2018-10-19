@@ -79,6 +79,8 @@ Restart your Mac. Once Solus has started you should be able to connect to the in
 
 ### Step 9: Fan noise
 
+> Instead of cloning the repo as described below, you can also install `mbpfan` via software centre, under system utilities.
+
 Pretty much straight away I noticed my Mac's fans we making a huge amount of noise, even when the machine was idle. This is a pretty common problem when running Linux on Mac hardware. 
 
 I fixed this issue with the help of an interesting bit of software which can be [downloaded from Github](https://github.com/dgraziotin/mbpfan).
